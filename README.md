@@ -1,6 +1,8 @@
 Zf2AMQPCarapace
 =======================
 
+[![Build Status](https://travis-ci.org/vuhl/zf2-amqp-carapace.svg)](https://travis-ci.org/vuhl/zf2-amqp-carapace)
+
 Introduction
 ------------
 Zf2AMQPCarapace is a wrapper for "vuhl/AMQPCarapace" which makes using AMQP in PHP extremely simple. Please refer to examples below
