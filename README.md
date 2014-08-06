@@ -13,7 +13,7 @@ Important Notes
 
 Installation Using Composer
 ---------------------------
-Add "vuhl\Zf2AMQPCarapace" to the require section of your composer.json file and run a respective install or update.
+Add "vu/zf2-amqp-carapace" to the require section of your composer.json file and run a respective install or update.
 For more information on Composer, please visit [their website](https://getcomposer.org/).
 
 Basic Usage
