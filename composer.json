@@ -1,0 +1,36 @@
+{
+    "name"              : "vu/zf2-amqp-carapace",
+    "description"       : "ZF2 PHP Wrapper for Vu/AMQPCarapace",
+    "license"           : "BSD-3-Clause",
+    "minimum-stability" : "dev",
+    "authors" : [
+        {
+            "name" : "Michael Crawford",
+            "homepage" : "https://github.com/cerealean",
+            "email" : "cerealean@me.com",
+            "role" : "Developer"
+        }
+    ],
+    "repositories"      : [
+        {
+            "type" : "composer",
+            "url"  : "https://packages.zendframework.com"
+        }
+    ],
+    "require"           : {
+        "php"                               : ">=5.4",
+        "vu/amqp-carapace"                  : "0.1.0",
+        "zendframework/zend-servicemanager" : "2.*",
+        "zendframework/zend-stdlib"         : "2.*",
+        "vu/zf2-test-extensions"            : "1.0"
+    },
+    "require-dev"       : {
+        "phpunit/phpunit"      : "3.7.*",
+        "phake/phake"          : "v1.0.3"
+    },
+    "autoload"          : {
+        "psr-4" : {
+            "Vu\\Zf2AMQPCarapace\\" : "./src/Vu/Zf2AMQPCarapace"
+        }
+    }
+}
