@@ -3,6 +3,7 @@
     "description"       : "ZF2 PHP Wrapper for Vu/AMQPCarapace",
     "license"           : "BSD-3-Clause",
     "minimum-stability" : "dev",
+    "keywords"          : ["rabbitmq","message","queue","zf2","amqp"],
     "authors" : [
         {
             "name" : "Michael Crawford",
